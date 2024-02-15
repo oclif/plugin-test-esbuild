@@ -1,6 +1,6 @@
 {
   "name": "@oclif/plugin-test-bundle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bundled plugin for testing",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-test-bundle/issues",

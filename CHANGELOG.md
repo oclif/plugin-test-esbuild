@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/oclif/plugin-test-bundle/compare/0.1.1...0.1.2) (2024-02-15)
+
+
+### Bug Fixes
+
+* use dev tags for oclif/core and oclif ([6a745a1](https://github.com/oclif/plugin-test-bundle/commit/6a745a176f767b57b1d17b9064400f561aefa21c))
+
+
+
 ## [0.1.1](https://github.com/oclif/plugin-test-bundle/compare/0.1.0...0.1.1) (2024-02-15)
 
 
