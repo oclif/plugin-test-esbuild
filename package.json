@@ -72,7 +72,7 @@
       }
     }
   },
-  "repository": "oclif/plugin-test-bundle",
+  "repository": "oclif/plugin-test-esbuild",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "bundle": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
