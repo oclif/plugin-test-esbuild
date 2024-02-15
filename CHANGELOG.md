@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/oclif/plugin-test-bundle/compare/0.1.2...0.1.3) (2024-02-15)
+
+
+### Bug Fixes
+
+* update package name ([8402335](https://github.com/oclif/plugin-test-bundle/commit/840233519d1bc95824e401065457e8ddb54c7991))
+
+
+
 ## [0.1.2](https://github.com/oclif/plugin-test-bundle/compare/0.1.1...0.1.2) (2024-02-15)
 
 
