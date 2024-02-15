@@ -1251,10 +1251,10 @@
     read-package-json-fast "^3.0.0"
     which "^4.0.0"
 
-"@oclif/core@3.19.2-qa.1":
-  version "3.19.2-qa.1"
-  resolved "http://localhost:4873/@oclif/core/-/core-3.19.2-qa.1.tgz#dec424bccda87253f43396892c26c190a38b2a98"
-  integrity sha512-91hyRj0/wkEJd8gZddypD/dXKD9WdmEd83B0wpoL8iDefP05GBzO1L6YdJoE6FmUSzjrUp1khI/ZUiw5x/E2tw==
+"@oclif/core@3.19.2-qa.2":
+  version "3.19.2-qa.2"
+  resolved "http://localhost:4873/@oclif/core/-/core-3.19.2-qa.2.tgz#b228dd9494aed7ac53b33f1e9173e4db16237bb6"
+  integrity sha512-Ect2uhoTpZ3Vx8lDPrPoda4gSKWzftQaTkct6vk+OQSYeWtjhELqKflRu4lUXU1a9r9E0Hb3ay9Zv28sSgKHaA==
   dependencies:
     "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"
