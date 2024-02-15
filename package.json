@@ -1,9 +1,9 @@
 {
-  "name": "@oclif/plugin-test-bundle",
+  "name": "@oclif/plugin-test-esbuild",
   "version": "0.1.2",
   "description": "Bundled plugin for testing",
   "author": "Salesforce",
-  "bugs": "https://github.com/oclif/plugin-test-bundle/issues",
+  "bugs": "https://github.com/oclif/plugin-test-esbuild/issues",
   "keywords": [
     "oclif"
   ],
@@ -44,7 +44,7 @@
     "/dist",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/oclif/plugin-test-bundle",
+  "homepage": "https://github.com/oclif/plugin-test-esbuild",
   "license": "MIT",
   "main": "dist/index.js",
   "oclif": {
