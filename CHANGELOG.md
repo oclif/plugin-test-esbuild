@@ -1,3 +1,12 @@
+## [0.1.5](https://github.com/oclif/plugin-test-esbuild/compare/0.1.4...0.1.5) (2024-02-15)
+
+
+### Bug Fixes
+
+* rm dist before bundling ([1ff563d](https://github.com/oclif/plugin-test-esbuild/commit/1ff563dd502a41f58b3ebd0ec860288320317857))
+
+
+
 ## [0.1.4](https://github.com/oclif/plugin-test-esbuild/compare/0.1.3...0.1.4) (2024-02-15)
 
 
