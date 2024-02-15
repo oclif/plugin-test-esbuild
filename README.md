@@ -1,7 +1,7 @@
-oclif-hello-world
+plugin-test-esbuild
 =================
 
-oclif example Hello World CLI
+Example of using `esbuild` with oclif
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
@@ -27,19 +27,22 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`bundle hello PERSON`](#bundle-hello-person)
-* [`bundle hello world`](#bundle-hello-world)
-* [`bundle help [COMMANDS]`](#bundle-help-commands)
-* [`bundle plugins`](#bundle-plugins)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
-* [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
-* [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
-* [`bundle plugins reset`](#bundle-plugins-reset)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
-* [`bundle plugins update`](#bundle-plugins-update)
+- [plugin-test-esbuild](#plugin-test-esbuild)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`bundle hello PERSON`](#bundle-hello-person)
+  - [`bundle hello world`](#bundle-hello-world)
+  - [`bundle help [COMMANDS]`](#bundle-help-commands)
+  - [`bundle plugins`](#bundle-plugins)
+  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
+  - [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
+  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
+  - [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
+  - [`bundle plugins reset`](#bundle-plugins-reset)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
+  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
+  - [`bundle plugins update`](#bundle-plugins-update)
 
 ## `bundle hello PERSON`
 
@@ -161,7 +164,7 @@ ALIASES
   $ bundle plugins add
 
 EXAMPLES
-  $ bundle plugins add myplugin 
+  $ bundle plugins add myplugin
 
   $ bundle plugins add https://github.com/someuser/someplugin
 
@@ -230,7 +233,7 @@ ALIASES
   $ bundle plugins add
 
 EXAMPLES
-  $ bundle plugins install myplugin 
+  $ bundle plugins install myplugin
 
   $ bundle plugins install https://github.com/someuser/someplugin
 
