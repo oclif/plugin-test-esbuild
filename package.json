@@ -75,7 +75,7 @@
   "repository": "oclif/plugin-test-esbuild",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
-    "bundle": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
+    "bundle": "shx rm -rf dist && esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
     "lint": "eslint . --ext .ts",
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
