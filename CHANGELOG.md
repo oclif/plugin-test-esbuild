@@ -1,3 +1,12 @@
+## [0.1.7](https://github.com/oclif/plugin-test-esbuild/compare/0.1.6...0.1.7) (2024-02-16)
+
+
+### Bug Fixes
+
+* bump oclif/core ([b40203a](https://github.com/oclif/plugin-test-esbuild/commit/b40203a3d54f6bea8e194fc2f490869f98b33ed3))
+
+
+
 ## [0.1.6](https://github.com/oclif/plugin-test-esbuild/compare/0.1.5...0.1.6) (2024-02-16)
 
 
