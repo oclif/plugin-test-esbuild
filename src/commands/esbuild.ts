@@ -7,13 +7,14 @@ type Result = {
 
 export default class ESBuild extends Command {
   static args = {
+    optionalArg: Args.string(),
+    // eslint-disable-next-line perfectionist/sort-objects
     defaultArg: Args.string({
       default: 'simple string default',
     }),
     defaultFnArg: Args.string({
       default: async () => 'async fn default',
     }),
-    optionalArg: Args.string(),
   }
 
   static enableJsonFlag = true
