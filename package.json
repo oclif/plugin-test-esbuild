@@ -11,7 +11,7 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "3.19.2-dev.0",
+    "@oclif/core": "3.19.3-dev.0",
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^4"
   },
@@ -34,7 +34,7 @@
     "typescript": "^5"
   },
   "resolutions": {
-    "@oclif/core": "3.19.2-dev.0"
+    "@oclif/core": "3.19.3-dev.0"
   },
   "engines": {
     "node": ">=18.0.0"

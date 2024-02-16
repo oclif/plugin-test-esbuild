@@ -1594,10 +1594,10 @@
     read-package-json-fast "^3.0.0"
     which "^4.0.0"
 
-"@oclif/core@3.19.2-dev.0", "@oclif/core@^3.10.2", "@oclif/core@^3.16.0", "@oclif/core@^3.18.1", "@oclif/core@^3.18.2", "@oclif/core@^3.19.1":
-  version "3.19.2-dev.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.19.2-dev.0.tgz#626e4818ef2a7c357f8eab95c4e10d397f789fc4"
-  integrity sha512-KcTNOdjdOLsllE8pJIJl4oNm8QGkfakeZdF0KVd/TFw2r8dctJxJegfRl3TP4CIUTNOJUaWKwJjT7s+PDEnFeA==
+"@oclif/core@3.19.2-dev.0", "@oclif/core@3.19.3-dev.0", "@oclif/core@^3.10.2", "@oclif/core@^3.16.0", "@oclif/core@^3.18.1", "@oclif/core@^3.18.2", "@oclif/core@^3.19.1":
+  version "3.19.3-dev.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.19.3-dev.0.tgz#fed79a4756c258c2de8fd1e9ef80a5f042656d5c"
+  integrity sha512-CwecvfEf37y0k76htTnhex2///fQv8zyo01TXjV/35s8zqGA6aHweBd5EL8CcGW78+aMFd172d9MRM2ehD+Vag==
   dependencies:
     "@types/cli-progress" "^3.11.5"
     ansi-escapes "^4.3.2"
