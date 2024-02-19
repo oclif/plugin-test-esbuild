@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-objects */
 import {Args, Command, Flags, Interfaces} from '@oclif/core'
 
 type Result = {
@@ -8,7 +9,6 @@ type Result = {
 export default class ESBuild extends Command {
   static args = {
     optionalArg: Args.string(),
-    // eslint-disable-next-line perfectionist/sort-objects
     defaultArg: Args.string({
       default: 'simple string default',
     }),
@@ -20,13 +20,13 @@ export default class ESBuild extends Command {
   static enableJsonFlag = true
 
   static flags = {
-    defaultFnString: Flags.string({
-      default: async () => 'async fn default',
-    }),
+    optionalString: Flags.string(),
     defaultString: Flags.string({
       default: 'simple string default',
     }),
-    optionalString: Flags.string(),
+    defaultFnString: Flags.string({
+      default: async () => 'async fn default',
+    }),
   }
 
   async run(): Promise<Result> {
