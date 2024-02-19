@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/oclif/plugin-test-esbuild/compare/0.2.1...0.2.2) (2024-02-19)
+
+
+### Bug Fixes
+
+* reorder flags ([157bd4c](https://github.com/oclif/plugin-test-esbuild/commit/157bd4ce06016193b5b20a0e47a92508455c99da))
+
+
+
 ## [0.2.1](https://github.com/oclif/plugin-test-esbuild/compare/0.2.0...0.2.1) (2024-02-16)
 
 
