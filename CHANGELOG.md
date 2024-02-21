@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/oclif/plugin-test-esbuild/compare/0.2.2...0.2.3) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** bump ip from 2.0.0 to 2.0.1 ([8d71868](https://github.com/oclif/plugin-test-esbuild/commit/8d71868ee819698683702d18329e1d175369ed70))
+
+
+
 ## [0.2.2](https://github.com/oclif/plugin-test-esbuild/compare/0.2.1...0.2.2) (2024-02-19)
 
 
