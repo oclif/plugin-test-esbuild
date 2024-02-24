@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/oclif/plugin-test-esbuild/compare/0.2.3...0.2.4) (2024-02-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 6.0.12 to 6.0.14 ([c799a8d](https://github.com/oclif/plugin-test-esbuild/commit/c799a8d6f0571b3683624a867eabe51ab85a2bf4))
+
+
+
 ## [0.2.3](https://github.com/oclif/plugin-test-esbuild/compare/0.2.2...0.2.3) (2024-02-21)
 
 
