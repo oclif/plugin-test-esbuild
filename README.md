@@ -14,11 +14,11 @@ Example of using `esbuild` with oclif
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @oclif/plugin-test-bundle
+$ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-bundle/0.0.0 darwin-arm64 node-v20.11.0
+@oclif/plugin-test-esbuild/0.2.4 darwin-arm64 node-v20.11.0
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -27,22 +27,37 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-- [plugin-test-esbuild](#plugin-test-esbuild)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [`bundle hello PERSON`](#bundle-hello-person)
-  - [`bundle hello world`](#bundle-hello-world)
-  - [`bundle help [COMMANDS]`](#bundle-help-commands)
-  - [`bundle plugins`](#bundle-plugins)
-  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
-  - [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
-  - [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
-  - [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
-  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
-  - [`bundle plugins reset`](#bundle-plugins-reset)
-  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
-  - [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
-  - [`bundle plugins update`](#bundle-plugins-update)
+* [`bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#bundle-esbuild-optionalarg-defaultarg-defaultfnarg)
+* [`bundle hello PERSON`](#bundle-hello-person)
+* [`bundle hello alias`](#bundle-hello-alias)
+* [`bundle hello world`](#bundle-hello-world)
+* [`bundle help [COMMANDS]`](#bundle-help-commands)
+* [`bundle plugins`](#bundle-plugins)
+* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
+* [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
+* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
+* [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
+* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
+* [`bundle plugins reset`](#bundle-plugins-reset)
+* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
+* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
+* [`bundle plugins update`](#bundle-plugins-update)
+
+## `bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
+
+```
+USAGE
+  $ bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--json] [--optionalString <value>]
+    [--defaultString <value>] [--defaultFnString <value>]
+
+FLAGS
+  --defaultFnString=<value>  [default: async fn default]
+  --defaultString=<value>    [default: simple string default]
+  --optionalString=<value>
+
+GLOBAL FLAGS
+  --json  Format output as json.
+```
 
 ## `bundle hello PERSON`
 
@@ -66,7 +81,21 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-bundle/blob/v0.0.0/src/commands/hello/index.ts)_
+## `bundle hello alias`
+
+Say hello world
+
+```
+USAGE
+  $ bundle hello alias
+
+DESCRIPTION
+  Say hello world
+
+EXAMPLES
+  $ bundle hello alias
+  hello world! (./src/commands/hello/world.ts)
+```
 
 ## `bundle hello world`
 
@@ -83,8 +112,6 @@ EXAMPLES
   $ bundle hello world
   hello world! (./src/commands/hello/world.ts)
 ```
-
-_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-bundle/blob/v0.0.0/src/commands/hello/world.ts)_
 
 ## `bundle help [COMMANDS]`
 
@@ -127,7 +154,7 @@ EXAMPLES
   $ bundle plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/index.ts)_
 
 ## `bundle plugins:install PLUGIN...`
 
@@ -164,7 +191,7 @@ ALIASES
   $ bundle plugins add
 
 EXAMPLES
-  $ bundle plugins add myplugin
+  $ bundle plugins add myplugin 
 
   $ bundle plugins add https://github.com/someuser/someplugin
 
@@ -196,7 +223,7 @@ EXAMPLES
   $ bundle plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/inspect.ts)_
 
 ## `bundle plugins:install PLUGIN...`
 
@@ -233,14 +260,14 @@ ALIASES
   $ bundle plugins add
 
 EXAMPLES
-  $ bundle plugins install myplugin
+  $ bundle plugins install myplugin 
 
   $ bundle plugins install https://github.com/someuser/someplugin
 
   $ bundle plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/install.ts)_
 
 ## `bundle plugins:link PLUGIN`
 
@@ -270,7 +297,7 @@ EXAMPLES
   $ bundle plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/link.ts)_
 
 ## `bundle plugins:uninstall PLUGIN...`
 
@@ -311,7 +338,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/reset.ts)_
 
 ## `bundle plugins:uninstall PLUGIN...`
 
@@ -339,7 +366,7 @@ EXAMPLES
   $ bundle plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/uninstall.ts)_
 
 ## `bundle plugins:uninstall PLUGIN...`
 
@@ -383,5 +410,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.1/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->

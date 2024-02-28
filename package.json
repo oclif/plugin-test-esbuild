@@ -11,9 +11,8 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "3.19.3-dev.0",
-    "@oclif/plugin-help": "^6",
-    "@oclif/plugin-plugins": "^4"
+    "@oclif/core": "3.20.1-dev.0",
+    "@oclif/plugin-test-esm-1": "^0.7.1"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
@@ -28,19 +27,19 @@
     "eslint-config-oclif-typescript": "^3",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10",
-    "oclif": "4.4.17",
+    "oclif": "4.4.13-dev.1",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "resolutions": {
-    "@oclif/core": "3.19.3-dev.0"
+    "@oclif/core": "3.20.1-dev.0"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "files": [
-    "/bin",
+    "/bin/run.js",
     "/dist",
     "/oclif.manifest.json"
   ],
@@ -55,10 +54,6 @@
       "target": "./dist/index.js",
       "identifier": "COMMANDS"
     },
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
-    ],
     "topicSeparator": " ",
     "topics": {
       "hello": {
@@ -66,15 +61,21 @@
       }
     },
     "hooks": {
-      "init": {
-        "target": "./dist/index.js",
-        "identifier": "INIT_HOOK"
-      }
+      "init": [
+        {
+          "target": "./dist/index.js",
+          "identifier": "INIT_HOOK"
+        },
+        {
+          "target": "./dist/index.js",
+          "identifier": "ESM1_INIT_HOOK"
+        }
+      ]
     }
   },
   "repository": "oclif/plugin-test-esbuild",
   "scripts": {
-    "build": "shx rm -rf dist && esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
+    "build": "shx rm -rf dist && node bin/bundle.js",
     "lint": "eslint . --ext .ts",
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
@@ -82,5 +83,6 @@
     "prepare": "yarn build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md"
-  }
+  },
+  "type": "module"
 }
