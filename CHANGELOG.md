@@ -1,3 +1,12 @@
+## [0.4.3](https://github.com/oclif/plugin-test-esbuild/compare/0.4.2...0.4.3) (2024-02-29)
+
+
+### Bug Fixes
+
+* update dev.cmd ([d847111](https://github.com/oclif/plugin-test-esbuild/commit/d847111fbafae6483966bd5f763ba9d967069fe3))
+
+
+
 ## [0.4.2](https://github.com/oclif/plugin-test-esbuild/compare/0.4.1...0.4.2) (2024-02-29)
 
 
