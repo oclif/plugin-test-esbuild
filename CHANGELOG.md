@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/oclif/plugin-test-esbuild/compare/0.4.0...0.4.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* mark shelljs as external ([c753684](https://github.com/oclif/plugin-test-esbuild/commit/c7536843a617703fed1339dabb327fa7c4ef4383))
+
+
+
 # [0.4.0](https://github.com/oclif/plugin-test-esbuild/compare/0.3.0...0.4.0) (2024-02-29)
 
 
