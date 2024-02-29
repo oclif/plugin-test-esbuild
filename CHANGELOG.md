@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/oclif/plugin-test-esbuild/compare/0.3.0...0.4.0) (2024-02-29)
+
+
+### Features
+
+* include commands from plugin-plugins ([9425ee6](https://github.com/oclif/plugin-test-esbuild/commit/9425ee6797b1c9d0ce5077fd27143f0c9e2782dd))
+
+
+
 # [0.3.0](https://github.com/oclif/plugin-test-esbuild/compare/0.2.4...0.3.0) (2024-02-28)
 
 
