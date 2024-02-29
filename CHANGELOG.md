@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/oclif/plugin-test-esbuild/compare/0.4.1...0.4.2) (2024-02-29)
+
+
+### Bug Fixes
+
+* use import.meta.url in bin/dev ([996ef2f](https://github.com/oclif/plugin-test-esbuild/commit/996ef2f24e385dfed79476b2a5f20068bc1efbc6))
+
+
+
 ## [0.4.1](https://github.com/oclif/plugin-test-esbuild/compare/0.4.0...0.4.1) (2024-02-29)
 
 
