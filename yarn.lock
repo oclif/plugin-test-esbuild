@@ -1652,25 +1652,10 @@
     chalk "^5.3.0"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@4.2.6-dev.0":
-  version "4.2.6-dev.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.2.6-dev.0.tgz#1c54ee81abb387317b17ac7e379eefb94664c031"
-  integrity sha512-uS0jMF7OkT7u9DnhOM5kD2aZ87Y2OZslQYWmbvy9RMNEcOYAvMO2lom02FtJznxsDQdC05eyZaKO3yYpuTnWRw==
-  dependencies:
-    "@oclif/core" "^3.10.2"
-    chalk "^5.3.0"
-    debug "^4.3.4"
-    npm "10.2.4"
-    npm-run-path "^4.0.1"
-    semver "^7.6.0"
-    shelljs "^0.8.5"
-    validate-npm-package-name "^5.0.0"
-    yarn "^1.22.21"
-
-"@oclif/plugin-plugins@^4":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.2.5.tgz#9acc18f83131c54c3cb6dcdda19c2ce183b87ba4"
-  integrity sha512-BnTXuoqG519WIhBd1y+GERq4LdB75cjiD+mN2/xS8mhnQbMxcPahnTWB8l5dhk+CXTkRv6q5nL/ovdRqHkZJHg==
+"@oclif/plugin-plugins@4.2.6", "@oclif/plugin-plugins@^4":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.2.6.tgz#9facef7881789e408766b65413a8b4efd0bce145"
+  integrity sha512-HdPWRQYI4wsTcqRJFvEGFalgX1q7y0oeCKdZtMI6Wl1PsALloYlbbQ1rl1jqk3YFbHjyEWud34gccOdXLl3UAA==
   dependencies:
     "@oclif/core" "^3.10.2"
     chalk "^5.3.0"
