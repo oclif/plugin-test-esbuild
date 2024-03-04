@@ -11,9 +11,9 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "3.20.1-dev.0",
+    "@oclif/core": "^3.21.0",
     "@oclif/plugin-test-esm-1": "^0.7.1",
-    "@oclif/plugin-plugins": "4.2.6-dev.0"
+    "@oclif/plugin-plugins": "^4.3.0"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
@@ -32,9 +32,6 @@
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
-  },
-  "resolutions": {
-    "@oclif/core": "3.20.1-dev.0"
   },
   "engines": {
     "node": ">=18.0.0"
