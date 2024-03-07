@@ -19,7 +19,7 @@
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
     "@types/chai": "^4",
-    "@types/mocha": "^9.0.0",
+    "@types/mocha": "^10.0.0",
     "@types/node": "^18",
     "chai": "^4",
     "esbuild": "^0.20.1",
@@ -28,7 +28,7 @@
     "eslint-config-oclif-typescript": "^3",
     "eslint-config-prettier": "^9.1.0",
     "mocha": "^10",
-    "oclif": "4.4.19",
+    "oclif": "^4.5.0",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
