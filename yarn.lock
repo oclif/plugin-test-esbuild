@@ -1285,14 +1285,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/plugin-help@^6":
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.14.tgz#9e572fb8394e9cbe2da3465c029eb9521f9c9198"
-  integrity sha512-orKUsV8hYtbnPf1W7y5wnnR2X6UFOl7hqTh/Uj4E+3ju/8TnvpavZXFA2UQecKWcfdbYjuTwxuZdeh8vBWFLIQ==
-  dependencies:
-    "@oclif/core" "^3.19.2"
-
-"@oclif/plugin-help@^6.0.14":
+"@oclif/plugin-help@^6", "@oclif/plugin-help@^6.0.14":
   version "6.0.17"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.17.tgz#88aa0ba02effa7bb33a7ebddfd3a2d5bfb2399f0"
   integrity sha512-zHKRQf/SkaOyF8xwz9EJxQ4bsB9bK+ED+i0YF24dud/1DkTj5cEDvrNV6sj+YH34ONz7z4et230URdFM3SJKeQ==
@@ -6396,10 +6389,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.5.0.tgz#f427ba06af3fcd0c01d7b2b5ac2ef23971d7eb0b"
-  integrity sha512-i+cmb3hyoJzPftJ97NawImslCQVHJAVMVpMmIuPbYqDMJNH8Jw5jKYxByvPyNoEo8sIvHOwqL9XerasVQEBNEw==
+oclif@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.5.2.tgz#b90f9bb624fccb73e57dd733e3a5146f3eeb7599"
+  integrity sha512-9xUwaaNvdrN1tSx/jxKD1tsu/sR3ZHFv1f72S8GAZ01xmp5EGyRw97xUT64TFLPQLp/6h3zXm3VUwhZyCv9bkw==
   dependencies:
     "@aws-sdk/client-cloudfront" "^3.525.0"
     "@aws-sdk/client-s3" "^3.515.0"
