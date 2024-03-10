@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@oclif/core": "^3.21.0",
-    "@oclif/plugin-test-esm-1": "^0.7.1",
+    "@oclif/plugin-test-esm-1": "^0.7.3",
     "@oclif/plugin-plugins": "^4.3.0"
   },
   "devDependencies": {
