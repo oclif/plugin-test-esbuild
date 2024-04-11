@@ -1,3 +1,12 @@
+## [0.4.12](https://github.com/oclif/plugin-test-esbuild/compare/0.4.11...0.4.12) (2024-04-11)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 6.1.11 to 6.2.1 ([5905785](https://github.com/oclif/plugin-test-esbuild/commit/5905785ae8efe8d8505d31f0f31a1c123b90dc64))
+
+
+
 ## [0.4.11](https://github.com/oclif/plugin-test-esbuild/compare/0.4.10...0.4.11) (2024-04-06)
 
 
