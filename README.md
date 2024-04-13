@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.2.4 darwin-arm64 node-v20.11.0
+@oclif/plugin-test-esbuild/0.4.13 linux-x64 node-v18.20.1
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -27,19 +27,16 @@ USAGE
 # Commands
 <!-- commands -->
 * [`bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#bundle-esbuild-optionalarg-defaultarg-defaultfnarg)
+* [`bundle esm1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#bundle-esm1-optionalarg-defaultarg-defaultfnarg)
 * [`bundle hello PERSON`](#bundle-hello-person)
 * [`bundle hello alias`](#bundle-hello-alias)
 * [`bundle hello world`](#bundle-hello-world)
-* [`bundle help [COMMANDS]`](#bundle-help-commands)
 * [`bundle plugins`](#bundle-plugins)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
 * [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin-1)
+* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
 * [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
 * [`bundle plugins reset`](#bundle-plugins-reset)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-1)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin-2)
+* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
 * [`bundle plugins update`](#bundle-plugins-update)
 
 ## `bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
@@ -47,6 +44,22 @@ USAGE
 ```
 USAGE
   $ bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--json] [--optionalString <value>]
+    [--defaultString <value>] [--defaultFnString <value>]
+
+FLAGS
+  --defaultFnString=<value>  [default: async fn default]
+  --defaultString=<value>    [default: simple string default]
+  --optionalString=<value>
+
+GLOBAL FLAGS
+  --json  Format output as json.
+```
+
+## `bundle esm1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
+
+```
+USAGE
+  $ bundle esm1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--json] [--optionalString <value>]
     [--defaultString <value>] [--defaultFnString <value>]
 
 FLAGS
@@ -112,26 +125,6 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-## `bundle help [COMMANDS]`
-
-Display help for bundle.
-
-```
-USAGE
-  $ bundle help [COMMANDS] [-n]
-
-ARGUMENTS
-  COMMANDS  Command to show help for.
-
-FLAGS
-  -n, --nested-commands  Include all nested commands in the output.
-
-DESCRIPTION
-  Display help for bundle.
-```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.12/src/commands/help.ts)_
-
 ## `bundle plugins`
 
 List installed plugins.
@@ -153,50 +146,6 @@ EXAMPLES
   $ bundle plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/index.ts)_
-
-## `bundle plugins:install PLUGIN...`
-
-Installs a plugin into the CLI.
-
-```
-USAGE
-  $ bundle plugins add plugins:install PLUGIN...
-
-ARGUMENTS
-  PLUGIN  Plugin to install.
-
-FLAGS
-  -f, --force    Run yarn install with force flag.
-  -h, --help     Show CLI help.
-  -s, --silent   Silences yarn output.
-  -v, --verbose  Show verbose yarn output.
-
-GLOBAL FLAGS
-  --json  Format output as json.
-
-DESCRIPTION
-  Installs a plugin into the CLI.
-  Can be installed from npm or a git url.
-
-  Installation of a user-installed plugin will override a core plugin.
-
-  e.g. If you have a core plugin that has a 'hello' command, installing a user-installed plugin with a 'hello' command
-  will override the core plugin implementation. This is useful if a user needs to update core plugin functionality in
-  the CLI without the need to patch and update the whole CLI.
-
-
-ALIASES
-  $ bundle plugins add
-
-EXAMPLES
-  $ bundle plugins add myplugin 
-
-  $ bundle plugins add https://github.com/someuser/someplugin
-
-  $ bundle plugins add someuser/someplugin
-```
-
 ## `bundle plugins:inspect PLUGIN...`
 
 Displays installation properties of a plugin.
@@ -206,7 +155,7 @@ USAGE
   $ bundle plugins inspect PLUGIN...
 
 ARGUMENTS
-  PLUGIN  [default: .] Plugin to inspect.
+  PLUGIN...  [default: .] Plugin to inspect.
 
 FLAGS
   -h, --help     Show CLI help.
@@ -222,8 +171,6 @@ EXAMPLES
   $ bundle plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/inspect.ts)_
-
 ## `bundle plugins:install PLUGIN...`
 
 Installs a plugin into the CLI.
@@ -233,7 +180,7 @@ USAGE
   $ bundle plugins install PLUGIN...
 
 ARGUMENTS
-  PLUGIN  Plugin to install.
+  PLUGIN...  Plugin to install.
 
 FLAGS
   -f, --force    Run yarn install with force flag.
@@ -266,8 +213,6 @@ EXAMPLES
   $ bundle plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/install.ts)_
-
 ## `bundle plugins:link PLUGIN`
 
 Links a plugin into the CLI for development.
@@ -296,34 +241,6 @@ EXAMPLES
   $ bundle plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/link.ts)_
-
-## `bundle plugins:uninstall PLUGIN...`
-
-Removes a plugin from the CLI.
-
-```
-USAGE
-  $ bundle plugins remove plugins:uninstall PLUGIN...
-
-ARGUMENTS
-  PLUGIN  plugin to uninstall
-
-FLAGS
-  -h, --help     Show CLI help.
-  -v, --verbose
-
-DESCRIPTION
-  Removes a plugin from the CLI.
-
-ALIASES
-  $ bundle plugins unlink
-  $ bundle plugins remove
-
-EXAMPLES
-  $ bundle plugins remove myplugin
-```
-
 ## `bundle plugins reset`
 
 Remove all user-installed and linked plugins.
@@ -337,8 +254,6 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/reset.ts)_
-
 ## `bundle plugins:uninstall PLUGIN...`
 
 Removes a plugin from the CLI.
@@ -348,7 +263,7 @@ USAGE
   $ bundle plugins uninstall PLUGIN...
 
 ARGUMENTS
-  PLUGIN  plugin to uninstall
+  PLUGIN...  plugin to uninstall
 
 FLAGS
   -h, --help     Show CLI help.
@@ -363,34 +278,6 @@ ALIASES
 
 EXAMPLES
   $ bundle plugins uninstall myplugin
-```
-
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/uninstall.ts)_
-
-## `bundle plugins:uninstall PLUGIN...`
-
-Removes a plugin from the CLI.
-
-```
-USAGE
-  $ bundle plugins unlink plugins:uninstall PLUGIN...
-
-ARGUMENTS
-  PLUGIN  plugin to uninstall
-
-FLAGS
-  -h, --help     Show CLI help.
-  -v, --verbose
-
-DESCRIPTION
-  Removes a plugin from the CLI.
-
-ALIASES
-  $ bundle plugins unlink
-  $ bundle plugins remove
-
-EXAMPLES
-  $ bundle plugins unlink myplugin
 ```
 
 ## `bundle plugins update`
@@ -408,6 +295,4 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
-
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v4.2.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
