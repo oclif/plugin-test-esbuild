@@ -1477,10 +1477,10 @@
     validate-npm-package-name "^5.0.0"
     yarn "^1.22.21"
 
-"@oclif/plugin-test-esm-1@^0.7.11":
-  version "0.7.11"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.7.11.tgz#b243b7b4fee0b576e7f5719d80e456b719b410c9"
-  integrity sha512-SXnuz4ANQZt+dscjiOXuWpHXCqYRTYbLNeAFgyyeurtwR4bV1814eUnQFHfaoBu8ZZEwW73TvZ/BPaWjTOEmOw==
+"@oclif/plugin-test-esm-1@^0.7.13":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.7.13.tgz#f26e8e07b104dc68a9e915e5b0e3216137f0ee85"
+  integrity sha512-SqnDu2z3Zcuj0oR1dfyrlPOo7JutBBGNWsOrbUwqNUX1M1RtqqEQVf/4NSM5fuHyN5FSP7ec2kwAzDRtOr3umQ==
   dependencies:
     "@oclif/core" "^3"
     "@oclif/plugin-help" "^6"
