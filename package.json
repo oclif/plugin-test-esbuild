@@ -11,7 +11,7 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "^3.25.2",
+    "@oclif/core": "^3.26.5",
     "@oclif/plugin-test-esm-1": "^0.7.14",
     "@oclif/plugin-plugins": "^4.3.10"
   },
