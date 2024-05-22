@@ -1,9 +1,9 @@
-import {expect, test} from '@oclif/test'
+import {runHook} from '@oclif/test'
+import {expect} from 'chai'
 
 describe('hooks (@oclif/plugin-test-esm-1)', () => {
-  test
-    .stdout()
-    .hook('init', {id: 'mycommand'})
-    .do((output) => expect(output.stdout).to.contain('Greetings! from plugin-test-esm-1 init hook'))
-    .it('shows a message')
+  it('shows a message', async () => {
+    const {stdout} = await runHook('init', {id: 'mycommand'})
+    expect(stdout).to.contain('Greetings! from plugin-test-esm-1 init hook')
+  })
 })

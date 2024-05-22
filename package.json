@@ -13,13 +13,13 @@
   "dependencies": {
     "@oclif/core": "^3.26.6",
     "@oclif/plugin-test-esm-1": "^0.7.16",
-    "@oclif/plugin-plugins": "^4.3.10"
+    "@oclif/plugin-plugins": "^5"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^3",
+    "@oclif/test": "^4",
     "@types/chai": "^4",
-    "@types/mocha": "^10.0.0",
+    "@types/mocha": "^10",
     "@types/node": "^18",
     "chai": "^4",
     "esbuild": "^0.21.3",
