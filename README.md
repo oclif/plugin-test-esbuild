@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.4.19 linux-x64 node-v18.20.2
+@oclif/plugin-test-esbuild/0.4.20 linux-x64 node-v18.20.2
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -33,10 +33,10 @@ USAGE
 * [`bundle hello world`](#bundle-hello-world)
 * [`bundle plugins`](#bundle-plugins)
 * [`bundle plugins:inspect PLUGIN...`](#bundle-pluginsinspect-plugin)
-* [`bundle plugins:install PLUGIN...`](#bundle-pluginsinstall-plugin)
-* [`bundle plugins:link PLUGIN`](#bundle-pluginslink-plugin)
+* [`bundle plugins install PLUGIN`](#bundle-plugins-install-plugin)
+* [`bundle plugins link PATH`](#bundle-plugins-link-path)
 * [`bundle plugins reset`](#bundle-plugins-reset)
-* [`bundle plugins:uninstall PLUGIN...`](#bundle-pluginsuninstall-plugin)
+* [`bundle plugins uninstall [PLUGIN]`](#bundle-plugins-uninstall-plugin)
 * [`bundle plugins update`](#bundle-plugins-update)
 
 ## `bundle esbuild [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
@@ -171,55 +171,60 @@ EXAMPLES
   $ bundle plugins inspect myplugin
 ```
 
-## `bundle plugins:install PLUGIN...`
+## `bundle plugins install PLUGIN`
 
-Installs a plugin into the CLI.
+Installs a plugin into bundle.
 
 ```
 USAGE
-  $ bundle plugins install PLUGIN...
+  $ bundle plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
-  -s, --silent   Silences yarn output.
-  -v, --verbose  Show verbose yarn output.
+  -s, --silent   Silences npm output.
+  -v, --verbose  Show verbose npm output.
 
 GLOBAL FLAGS
   --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into the CLI.
-  Can be installed from npm or a git url.
+  Installs a plugin into bundle.
+
+  Uses bundled npm executable to install plugins into /home/runner/.local/share/bundle
 
   Installation of a user-installed plugin will override a core plugin.
 
-  e.g. If you have a core plugin that has a 'hello' command, installing a user-installed plugin with a 'hello' command
-  will override the core plugin implementation. This is useful if a user needs to update core plugin functionality in
-  the CLI without the need to patch and update the whole CLI.
-
+  Use the BUNDLE_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the BUNDLE_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
   $ bundle plugins add
 
 EXAMPLES
-  $ bundle plugins install myplugin 
+  Install a plugin from npm registry.
 
-  $ bundle plugins install https://github.com/someuser/someplugin
+    $ bundle plugins install myplugin
 
-  $ bundle plugins install someuser/someplugin
+  Install a plugin from a github url.
+
+    $ bundle plugins install https://github.com/someuser/someplugin
+
+  Install a plugin from a github slug.
+
+    $ bundle plugins install someuser/someplugin
 ```
 
-## `bundle plugins:link PLUGIN`
+## `bundle plugins link PATH`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ bundle plugins link PLUGIN
+  $ bundle plugins link PATH [-h] [--install] [-v]
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -254,13 +259,13 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-## `bundle plugins:uninstall PLUGIN...`
+## `bundle plugins uninstall [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ bundle plugins uninstall PLUGIN...
+  $ bundle plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall

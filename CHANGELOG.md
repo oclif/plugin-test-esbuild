@@ -1,3 +1,7 @@
+## [0.4.20](https://github.com/oclif/plugin-test-esbuild/compare/0.4.19...0.4.20) (2024-05-22)
+
+
+
 ## [0.4.19](https://github.com/oclif/plugin-test-esbuild/compare/0.4.18...0.4.19) (2024-05-18)
 
 
