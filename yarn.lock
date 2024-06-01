@@ -1474,6 +1474,29 @@
     proc-log "^4.0.0"
     which "^4.0.0"
 
+"@oclif/core@4.0.0-beta.13", "@oclif/core@^4.0.0-beta.12", "@oclif/core@^4.0.0-beta.13":
+  version "4.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.0-beta.13.tgz#0e0a6431cfe612db77073d2f9ef361f14e4090b8"
+  integrity sha512-ug8CZUCJphgetSZVgd4HQgyewlYVGGG1LIeFXGxjgYsjZ/f5I3nSCj7xpAMEDqjVD/lwmSujtVwa7tvEgLGICw==
+  dependencies:
+    ansi-escapes "^4.3.2"
+    ansis "^3.0.1"
+    clean-stack "^3.0.1"
+    cli-spinners "^2.9.2"
+    cosmiconfig "^9.0.0"
+    debug "^4.3.4"
+    ejs "^3.1.10"
+    get-package-type "^0.1.0"
+    globby "^11.1.0"
+    indent-string "^4.0.0"
+    is-wsl "^2.2.0"
+    minimatch "^9.0.4"
+    string-width "^4.2.3"
+    supports-color "^9.4.0"
+    widest-line "^3.1.0"
+    wordwrap "^1.0.0"
+    wrap-ansi "^7.0.0"
+
 "@oclif/core@^3", "@oclif/core@^3.26.2", "@oclif/core@^3.26.6":
   version "3.26.6"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.26.6.tgz#f371868cfa0fe150a6547e6af98b359065d2f971"
@@ -1508,29 +1531,6 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^4.0.0-beta.12", "@oclif/core@^4.0.0-beta.13":
-  version "4.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.0-beta.13.tgz#0e0a6431cfe612db77073d2f9ef361f14e4090b8"
-  integrity sha512-ug8CZUCJphgetSZVgd4HQgyewlYVGGG1LIeFXGxjgYsjZ/f5I3nSCj7xpAMEDqjVD/lwmSujtVwa7tvEgLGICw==
-  dependencies:
-    ansi-escapes "^4.3.2"
-    ansis "^3.0.1"
-    clean-stack "^3.0.1"
-    cli-spinners "^2.9.2"
-    cosmiconfig "^9.0.0"
-    debug "^4.3.4"
-    ejs "^3.1.10"
-    get-package-type "^0.1.0"
-    globby "^11.1.0"
-    indent-string "^4.0.0"
-    is-wsl "^2.2.0"
-    minimatch "^9.0.4"
-    string-width "^4.2.3"
-    supports-color "^9.4.0"
-    widest-line "^3.1.0"
-    wordwrap "^1.0.0"
-    wrap-ansi "^7.0.0"
-
 "@oclif/plugin-help@^6", "@oclif/plugin-help@^6.0.21":
   version "6.0.21"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.21.tgz#c48e688bf6df574e74557ebe2f877556f08dc60b"
@@ -1549,12 +1549,12 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.1.3.tgz#26ef8702061ba26e15308046db6717d0a9ccd70c"
-  integrity sha512-85ZG8c0PzxAUavboxHS5/jPa8iM2luc9EG4at4by8eOjO76yDswN+oqFZ6qitH4Jg+JC2gF6pyh66s4w9Cr0FQ==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.2.1.tgz#6c6ebc2523ec858b796d7c8ce661b418552ec2f2"
+  integrity sha512-Qk0+7KIYK6cQz116ZyY25XRwniKuAAGKTvY2J91CDfyri0RYUOSDNOzz0m18IG2M51Tgiv8UNY74A3PIhQaEcw==
   dependencies:
-    "@oclif/core" "^3.26.6"
-    chalk "^5.3.0"
+    "@oclif/core" "4.0.0-beta.13"
+    ansis "^3.2.0"
     debug "^4.3.4"
     npm "^10.8.0"
     npm-package-arg "^11.0.2"
