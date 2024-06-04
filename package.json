@@ -11,9 +11,9 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "^3.26.6",
-    "@oclif/plugin-test-esm-1": "^0.7.19",
-    "@oclif/plugin-plugins": "^5"
+    "@oclif/core": "^4",
+    "@oclif/plugin-test-esm-1": "^0.8.0",
+    "@oclif/plugin-plugins": "^5.2.2"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
