@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/oclif/plugin-test-esbuild/compare/0.4.23...0.5.0) (2024-06-04)
+
+
+### Features
+
+* core v4 ([1d50fe0](https://github.com/oclif/plugin-test-esbuild/commit/1d50fe041da3ec6d1d470af429f58c6a7968b7df))
+
+
+
 ## [0.4.23](https://github.com/oclif/plugin-test-esbuild/compare/0.4.22...0.4.23) (2024-06-01)
 
 
