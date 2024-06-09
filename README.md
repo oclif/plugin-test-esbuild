@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.5.1 linux-x64 node-v18.20.3
+@oclif/plugin-test-esbuild/0.5.2 linux-x64 node-v18.20.3
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -194,7 +194,7 @@ GLOBAL FLAGS
 DESCRIPTION
   Installs a plugin into bundle.
 
-  Uses bundled npm executable to install plugins into /home/runner/.local/share/bundle
+  Uses npm to install plugins.
 
   Installation of a user-installed plugin will override a core plugin.
 
