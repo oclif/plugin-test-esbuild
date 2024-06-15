@@ -1,3 +1,12 @@
+## [0.5.3](https://github.com/oclif/plugin-test-esbuild/compare/0.5.2...0.5.3) (2024-06-15)
+
+
+### Bug Fixes
+
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#94](https://github.com/oclif/plugin-test-esbuild/issues/94)) ([f2e3e78](https://github.com/oclif/plugin-test-esbuild/commit/f2e3e78e0adac363f0d8b6bca9ca8232263e2f92))
+
+
+
 ## [0.5.2](https://github.com/oclif/plugin-test-esbuild/compare/0.5.1...0.5.2) (2024-06-09)
 
 
