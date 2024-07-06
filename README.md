@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.5.9 linux-x64 node-v18.20.3
+@oclif/plugin-test-esbuild/0.5.10 linux-x64 node-v18.20.3
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
