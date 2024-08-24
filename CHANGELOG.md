@@ -1,3 +1,12 @@
+## [0.5.24](https://github.com/oclif/plugin-test-esbuild/compare/0.5.23...0.5.24) (2024-08-24)
+
+
+### Bug Fixes
+
+* **deps:** bump micromatch from 4.0.4 to 4.0.8 ([#148](https://github.com/oclif/plugin-test-esbuild/issues/148)) ([f79ea14](https://github.com/oclif/plugin-test-esbuild/commit/f79ea14a7c531e5a210777913eb02a17bfb79783))
+
+
+
 ## [0.5.23](https://github.com/oclif/plugin-test-esbuild/compare/0.5.22...0.5.23) (2024-08-24)
 
 
