@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.5.36 linux-x64 node-v18.20.4
+@oclif/plugin-test-esbuild/0.5.37 linux-x64 node-v18.20.4
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -236,6 +236,7 @@ FLAGS
 
 DESCRIPTION
   Links a plugin into the CLI for development.
+
   Installation of a linked plugin will override a user-installed or core plugin.
 
   e.g. If you have a user-installed or core plugin that has a 'hello' command, installing a linked plugin with a 'hello'
