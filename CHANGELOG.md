@@ -1,3 +1,12 @@
+## [0.5.44](https://github.com/oclif/plugin-test-esbuild/compare/0.5.43...0.5.44) (2024-11-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.0.30 to 4.0.31 ([#196](https://github.com/oclif/plugin-test-esbuild/issues/196)) ([79b9116](https://github.com/oclif/plugin-test-esbuild/commit/79b911611796006f3f3a7d271e4131343e31fb46))
+
+
+
 ## [0.5.43](https://github.com/oclif/plugin-test-esbuild/compare/0.5.42...0.5.43) (2024-11-03)
 
 
