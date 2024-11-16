@@ -1,3 +1,12 @@
+## [0.5.46](https://github.com/oclif/plugin-test-esbuild/compare/0.5.45...0.5.46) (2024-11-16)
+
+
+### Bug Fixes
+
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([#206](https://github.com/oclif/plugin-test-esbuild/issues/206)) ([97ee9c9](https://github.com/oclif/plugin-test-esbuild/commit/97ee9c9a14ed01ebc6e57258961df7e4138bd6f7))
+
+
+
 ## [0.5.45](https://github.com/oclif/plugin-test-esbuild/compare/0.5.44...0.5.45) (2024-11-09)
 
 
