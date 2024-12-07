@@ -13,7 +13,7 @@
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-test-esm-1": "^0.8.45",
-    "@oclif/plugin-plugins": "^5.4.17"
+    "@oclif/plugin-plugins": "^5.4.19"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
