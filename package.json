@@ -1,6 +1,6 @@
 {
   "name": "@oclif/plugin-test-esbuild",
-  "version": "0.5.52",
+  "version": "0.5.53",
   "description": "Bundled plugin for testing",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-test-esbuild/issues",
