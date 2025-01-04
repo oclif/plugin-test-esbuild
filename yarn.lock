@@ -1788,13 +1788,13 @@
     ansis "^3.3.1"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.23":
-  version "5.4.23"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.23.tgz#1cf96d5e6b914e62d42cf55ef73dff39578a05bc"
-  integrity sha512-IsjgqRJIeZFJ6mGmQb12DsoqTOBukvOtd/4GYMas6Ro5y854szNUBGHBn+IUc0ZmgWjd0q4KerMLX00r800PGg==
+"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.24":
+  version "5.4.24"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.24.tgz#d9707f0f5724aee0ad29e39fc9b3115a2ec2b4de"
+  integrity sha512-Mzo0XNeD/5dshgLX9Ft7cpgSQKVQd7fw0PoaE/+58d7K/Lz00wxbo4zKjw19j65pqBfsKv7zVmg+jWxu3PZpgA==
   dependencies:
     "@oclif/core" "^4.0.34"
-    ansis "^3.4.0"
+    ansis "^3.5.2"
     debug "^4.4.0"
     npm "^10.9.2"
     npm-package-arg "^11.0.3"
@@ -2923,10 +2923,10 @@ ansi-styles@^6.1.0:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.1.tgz#0e62320cf99c21afff3b3012192546aacbfb05c5"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-ansis@^3.3.1, ansis@^3.3.2, ansis@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.4.0.tgz#d49ebb72f228aa122733a585c600dcba4f5f0838"
-  integrity sha512-zVESKSQhWaPhGaWiKj1k+UqvpC7vPBBgG3hjQEeIx2YGzylWt8qA3ziAzRuUtm0OnaGsZKjIvfl8D/sJTt/I0w==
+ansis@^3.3.1, ansis@^3.3.2, ansis@^3.4.0, ansis@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.5.2.tgz#d7a1f95a23f6becc5ee16fab85cda41c898fad96"
+  integrity sha512-5uGcUZRbORJeEppVdWfZOSybTMz+Ou+84HepgK081Yk5+pPMMzWf/XGxiAT6bfBqCghRB4MwBtYn0CHqINRVag==
 
 anymatch@~3.1.2:
   version "3.1.2"
