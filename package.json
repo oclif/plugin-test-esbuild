@@ -12,10 +12,11 @@
   },
   "dependencies": {
     "@oclif/core": "^4",
-    "@oclif/plugin-test-esm-1": "^0.8.56",
-    "@oclif/plugin-plugins": "^5.4.26"
+    "@oclif/plugin-plugins": "^5.4.26",
+    "@oclif/plugin-test-esm-1": "^0.8.56"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.5",
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^4",
     "@types/chai": "^4",
@@ -23,10 +24,9 @@
     "@types/node": "^18",
     "chai": "^4",
     "esbuild": "^0.24.2",
-    "eslint": "^8.57.1",
-    "eslint-config-oclif": "^5",
-    "eslint-config-oclif-typescript": "^3",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint": "^9.19.0",
+    "eslint-config-oclif": "^6.0.0",
+    "eslint-config-prettier": "^10.0.1",
     "mocha": "^10",
     "oclif": "^4.17.17",
     "shx": "^0.3.4",
@@ -37,7 +37,7 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "/bin/run.js",
+    "bin/run.js",
     "/dist",
     "/oclif.manifest.json"
   ],
@@ -78,7 +78,7 @@
   "repository": "oclif/plugin-test-esbuild",
   "scripts": {
     "build": "shx rm -rf dist && node bin/bundle.js",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint",
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
