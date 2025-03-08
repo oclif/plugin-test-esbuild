@@ -1441,10 +1441,10 @@
     ansis "^3.5.2"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.33":
-  version "5.4.33"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.33.tgz#1525bbbc44002516fc05359bf9ac0a63fdd59370"
-  integrity sha512-rGeYqlJ3KghB95b0SAPDTSaV8qtbxIOnH71Qgb+QqdPqKL1iD402DrjmTDT6XpaFVeK04g3XhiB7K3JKjgFABA==
+"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.34":
+  version "5.4.34"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.34.tgz#9cf7555387673f851f937840f143d22adcda7c81"
+  integrity sha512-19sX+tHyR6M24GHbnedqqtk6w9QBgFZoa1y4zPmHf6VYaBeBmMBaq2dsLsdG0zv8LnWxaqguocICoxZTrV9f6A==
   dependencies:
     "@oclif/core" "^4.2.6"
     ansis "^3.14.0"
@@ -1453,7 +1453,7 @@
     npm-package-arg "^11.0.3"
     npm-run-path "^5.3.0"
     object-treeify "^4.0.1"
-    semver "^7.7.0"
+    semver "^7.7.1"
     validate-npm-package-name "^5.0.1"
     which "^4.0.0"
     yarn "^1.22.22"
@@ -6514,7 +6514,7 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.0, semver@^7.7.1:
+semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1:
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
   integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
