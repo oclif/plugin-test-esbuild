@@ -28,7 +28,7 @@
     "eslint-config-oclif": "^6.0.24",
     "eslint-config-prettier": "^10.1.1",
     "mocha": "^10",
-    "oclif": "^4.17.32",
+    "oclif": "^4.17.34",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
