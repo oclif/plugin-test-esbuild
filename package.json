@@ -29,7 +29,7 @@
     "eslint-config-prettier": "^10.1.1",
     "mocha": "^10",
     "oclif": "^4.17.41",
-    "shx": "^0.3.4",
+    "shx": "^0.4.0",
     "ts-node": "^10.9.2",
     "typescript": "^5"
   },
