@@ -25,7 +25,7 @@
     "chai": "^4",
     "esbuild": "^0.25.5",
     "eslint": "^9.29.0",
-    "eslint-config-oclif": "^6.0.72",
+    "eslint-config-oclif": "^6.0.76",
     "eslint-config-prettier": "^10.1.5",
     "mocha": "^10",
     "oclif": "^4.20.1",
