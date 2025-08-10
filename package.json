@@ -24,7 +24,7 @@
     "@types/node": "^18",
     "chai": "^4",
     "esbuild": "^0.25.8",
-    "eslint": "^9.32.0",
+    "eslint": "^9.33.0",
     "eslint-config-oclif": "^6.0.90",
     "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
