@@ -23,7 +23,7 @@
     "@types/mocha": "^10",
     "@types/node": "^18",
     "chai": "^4",
-    "esbuild": "^0.25.9",
+    "esbuild": "^0.25.10",
     "eslint": "^9.35.0",
     "eslint-config-oclif": "^6.0.102",
     "eslint-config-prettier": "^10.1.8",
