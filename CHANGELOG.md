@@ -1,3 +1,12 @@
+## [0.5.100](https://github.com/oclif/plugin-test-esbuild/compare/0.5.99...0.5.100) (2025-10-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 5.4.47 to 5.4.48 ([#422](https://github.com/oclif/plugin-test-esbuild/issues/422)) ([d86cff8](https://github.com/oclif/plugin-test-esbuild/commit/d86cff84d34515e6d6e3f6c175836abc06cf0b47))
+
+
+
 ## [0.5.99](https://github.com/oclif/plugin-test-esbuild/compare/0.5.98...0.5.99) (2025-09-27)
 
 
