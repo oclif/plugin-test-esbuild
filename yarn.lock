@@ -1579,10 +1579,10 @@
     ansis "^3.17.0"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.49":
-  version "5.4.49"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.49.tgz#4ad135cbadfed212badb7cce1184e9362521e35f"
-  integrity sha512-OeDLxEjbfEj5AN/wEKXzSY4VC+svBVdjrlHjxm4/e1ZnK3ZuSe1MeABmJc4mXmWwG/zagtNtSAKmTOWhe+WmmA==
+"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.50":
+  version "5.4.50"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.50.tgz#0749200c71d9e9e36cd11cb97c441927dd3ad6b2"
+  integrity sha512-HNhmmgxH0xoFsYKubtWWhgSasbDEyoT+o/q5QDljiytNvqWP3wWiP6cqqWvGpKG2El7+g17crdWpv4jzrf3Lyg==
   dependencies:
     "@oclif/core" "^4.5.4"
     ansis "^3.17.0"
@@ -1591,7 +1591,7 @@
     npm-package-arg "^11.0.3"
     npm-run-path "^5.3.0"
     object-treeify "^4.0.1"
-    semver "^7.7.2"
+    semver "^7.7.3"
     validate-npm-package-name "^5.0.1"
     which "^4.0.0"
     yarn "^1.22.22"
@@ -7359,10 +7359,10 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1, semver@^7.7.2:
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
-  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
+semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1, semver@^7.7.2, semver@^7.7.3:
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
+  integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
 
 sentence-case@^3.0.4:
   version "3.0.4"
