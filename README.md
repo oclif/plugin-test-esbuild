@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-esbuild
 $ bundle COMMAND
 running command...
 $ bundle (--version)
-@oclif/plugin-test-esbuild/0.5.102 linux-x64 node-v20.19.5
+@oclif/plugin-test-esbuild/0.5.103 linux-x64 node-v20.19.5
 $ bundle --help [COMMAND]
 USAGE
   $ bundle COMMAND
@@ -269,7 +269,7 @@ USAGE
   $ bundle plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
-  PLUGIN...  plugin to uninstall
+  [PLUGIN...]  plugin to uninstall
 
 FLAGS
   -h, --help     Show CLI help.
