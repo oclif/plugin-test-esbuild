@@ -1246,10 +1246,15 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.38.0", "@eslint/js@^9.34.0":
+"@eslint/js@9.38.0":
   version "9.38.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.38.0.tgz#f7aa9c7577577f53302c1d795643589d7709ebd1"
   integrity sha512-UZ1VpFvXf9J06YG9xQBdnzU+kthors6KjhMAl6f4gH4usHyh31rUf2DLGInT8RFYIReYXNSydgPY0V2LuWgl7A==
+
+"@eslint/js@^9.38.0":
+  version "9.39.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.39.0.tgz#e1955cefd1d79e80a9557274e9aa9bd3f641be01"
+  integrity sha512-BIhe0sW91JGPiaF1mOuPy5v8NflqfjIcDNpC+LbW9f609WVRX1rArrhi6Z2ymvrAry9jw+5POTj4t2t62o8Bmw==
 
 "@eslint/json@^0.13.1":
   version "0.13.2"
@@ -4650,14 +4655,14 @@ eslint-config-oclif@^5.2.2:
     eslint-plugin-n "^15.1.0"
     eslint-plugin-unicorn "^48.0.1"
 
-eslint-config-oclif@^6.0.110:
-  version "6.0.110"
-  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-6.0.110.tgz#d0a4cf4fb8cf94eab5a0793ce06130cdbd55ab54"
-  integrity sha512-rSabSewuQudsmSSYjUnYuzROlObc4ESjPYS7L5HS9yUR7VXhX2l/jX2e5C6K6x650Mj/Q0/bd8LEbZyO4AvvCQ==
+eslint-config-oclif@^6.0.114:
+  version "6.0.114"
+  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-6.0.114.tgz#72cbf5961ae8608b75998aab02ac2e1f2a02291c"
+  integrity sha512-KBl29BbP9dELCBqiF0fVNXp1tDB97ZWEjW2mXzDWkvvVWdDxdrmCM5nV4PJdnzlaGQ559FwfbUS2rWag4VsvAQ==
   dependencies:
     "@eslint/compat" "^1.4.0"
     "@eslint/eslintrc" "^3.3.1"
-    "@eslint/js" "^9.34.0"
+    "@eslint/js" "^9.38.0"
     "@stylistic/eslint-plugin" "^3.1.0"
     "@typescript-eslint/eslint-plugin" "^8"
     "@typescript-eslint/parser" "^8"
@@ -4671,7 +4676,7 @@ eslint-config-oclif@^6.0.110:
     eslint-plugin-n "^17.22.0"
     eslint-plugin-perfectionist "^4"
     eslint-plugin-unicorn "^56.0.1"
-    typescript-eslint "^8.46.0"
+    typescript-eslint "^8.46.2"
 
 eslint-config-prettier@^10.1.8:
   version "10.1.8"
@@ -8828,7 +8833,7 @@ typed-array-length@^1.0.7:
     possible-typed-array-names "^1.0.0"
     reflect.getprototypeof "^1.0.6"
 
-typescript-eslint@^8.46.0:
+typescript-eslint@^8.46.2:
   version "8.46.2"
   resolved "https://registry.yarnpkg.com/typescript-eslint/-/typescript-eslint-8.46.2.tgz#da1adec683ba93a1b6c3850a4efb0922ffbc627d"
   integrity sha512-vbw8bOmiuYNdzzV3lsiWv6sRwjyuKJMQqWulBOU7M0RrxedXledX8G8kBbQeiOYDnTfiXz0Y4081E1QMNB6iQg==
