@@ -1,3 +1,12 @@
+## [0.5.110](https://github.com/oclif/plugin-test-esbuild/compare/0.5.109...0.5.110) (2025-11-15)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#451](https://github.com/oclif/plugin-test-esbuild/issues/451)) ([a50b15a](https://github.com/oclif/plugin-test-esbuild/commit/a50b15ad4bdc866ef58098163289f2ef379019aa))
+
+
+
 ## [0.5.109](https://github.com/oclif/plugin-test-esbuild/compare/0.5.108...0.5.109) (2025-11-09)
 
 
