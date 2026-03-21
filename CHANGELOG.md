@@ -1,3 +1,12 @@
+## [0.5.120](https://github.com/oclif/plugin-test-esbuild/compare/0.5.119...0.5.120) (2026-03-21)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.3.2 to 3.4.2 ([#502](https://github.com/oclif/plugin-test-esbuild/issues/502)) ([b18cb71](https://github.com/oclif/plugin-test-esbuild/commit/b18cb719ba5be62f8e297c5e6654639762c2ba93))
+
+
+
 ## [0.5.119](https://github.com/oclif/plugin-test-esbuild/compare/0.5.118...0.5.119) (2026-02-14)
 
 
