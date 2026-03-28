@@ -1,3 +1,12 @@
+## [0.5.121](https://github.com/oclif/plugin-test-esbuild/compare/0.5.120...0.5.121) (2026-03-28)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 5.4.56 to 5.4.59 ([#507](https://github.com/oclif/plugin-test-esbuild/issues/507)) ([139b259](https://github.com/oclif/plugin-test-esbuild/commit/139b259bb7f47282387e27ae47e4e35f92da74ab))
+
+
+
 ## [0.5.120](https://github.com/oclif/plugin-test-esbuild/compare/0.5.119...0.5.120) (2026-03-21)
 
 
