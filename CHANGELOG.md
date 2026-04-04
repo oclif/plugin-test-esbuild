@@ -1,3 +1,12 @@
+## [0.5.124](https://github.com/oclif/plugin-test-esbuild/compare/0.5.123...0.5.124) (2026-04-04)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#513](https://github.com/oclif/plugin-test-esbuild/issues/513)) ([14b8872](https://github.com/oclif/plugin-test-esbuild/commit/14b8872da4920b3f38da6138e732123bf867fe8b))
+
+
+
 ## [0.5.123](https://github.com/oclif/plugin-test-esbuild/compare/0.5.122...0.5.123) (2026-03-29)
 
 
