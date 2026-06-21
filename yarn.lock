@@ -1370,9 +1370,9 @@
     proc-log "^6.0.0"
 
 "@oclif/core@^4", "@oclif/core@^4.11.4", "@oclif/core@^4.11.7":
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.8.tgz#7f242617c4cf1d4aa84ad72da45a0c3c9dc83f15"
-  integrity sha512-61cTnKgGyMvGdErqiChXru3MwniokcshUjQKzahYjjcD0qPGDalQ+FUtm0QBDduHPtt591mC2YN3RM+P0teG+w==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.9.tgz#7dd438f3e48834b2bb219e71d34d397aacebccab"
+  integrity sha512-w8uupjkdEQQcTFp1BUzWZCRNRW4BwXaSnFldHuziqx79F8q4NRCFwgGoMHV48HpJ6Xn9zeN0l3BiuppnPh6bWA==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.17.0"
