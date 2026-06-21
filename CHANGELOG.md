@@ -1,3 +1,12 @@
+## [0.5.152](https://github.com/oclif/plugin-test-esbuild/compare/0.5.151...0.5.152) (2026-06-21)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 7.4.3 to 7.5.16 ([#561](https://github.com/oclif/plugin-test-esbuild/issues/561)) ([8ac9f02](https://github.com/oclif/plugin-test-esbuild/commit/8ac9f02c4224aa9818b0d27070548f47f40b205a))
+
+
+
 ## [0.5.151](https://github.com/oclif/plugin-test-esbuild/compare/0.5.150...0.5.151) (2026-06-20)
 
 
