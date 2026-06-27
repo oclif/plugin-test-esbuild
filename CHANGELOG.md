@@ -1,3 +1,12 @@
+## [0.5.156](https://github.com/oclif/plugin-test-esbuild/compare/0.5.155...0.5.156) (2026-06-27)
+
+
+### Bug Fixes
+
+* **deps:** bump @sigstore/core from 3.2.0 to 3.2.1 ([#569](https://github.com/oclif/plugin-test-esbuild/issues/569)) ([18c0fb7](https://github.com/oclif/plugin-test-esbuild/commit/18c0fb7c5ad835f784e8e1947cf1c188798a4585))
+
+
+
 ## [0.5.155](https://github.com/oclif/plugin-test-esbuild/compare/0.5.154...0.5.155) (2026-06-27)
 
 
