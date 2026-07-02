@@ -1,3 +1,12 @@
+## [0.5.159](https://github.com/oclif/plugin-test-esbuild/compare/0.5.158...0.5.159) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump @sigstore/verify from 3.1.0 to 3.1.1 ([#570](https://github.com/oclif/plugin-test-esbuild/issues/570)) ([1b08fd3](https://github.com/oclif/plugin-test-esbuild/commit/1b08fd31e1fca945e2b7311924691dcc8ca73b6c))
+
+
+
 ## [0.5.158](https://github.com/oclif/plugin-test-esbuild/compare/0.5.157...0.5.158) (2026-06-28)
 
 
