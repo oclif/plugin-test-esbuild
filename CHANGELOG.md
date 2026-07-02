@@ -1,3 +1,12 @@
+## [0.5.160](https://github.com/oclif/plugin-test-esbuild/compare/0.5.159...0.5.160) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump sigstore from 4.1.0 to 4.1.1 ([#571](https://github.com/oclif/plugin-test-esbuild/issues/571)) ([8c96ce4](https://github.com/oclif/plugin-test-esbuild/commit/8c96ce4a2dbe892324eaef581e39eae9c77ba8f6))
+
+
+
 ## [0.5.159](https://github.com/oclif/plugin-test-esbuild/compare/0.5.158...0.5.159) (2026-07-02)
 
 
