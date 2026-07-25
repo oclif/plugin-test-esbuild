@@ -1,3 +1,12 @@
+## [0.5.164](https://github.com/oclif/plugin-test-esbuild/compare/0.5.163...0.5.164) (2026-07-25)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.2.0 to 4.3.0 ([#586](https://github.com/oclif/plugin-test-esbuild/issues/586)) ([1f4c44d](https://github.com/oclif/plugin-test-esbuild/commit/1f4c44d922d8a54e994ca73a4f2e48feadced3e8))
+
+
+
 ## [0.5.163](https://github.com/oclif/plugin-test-esbuild/compare/0.5.162...0.5.163) (2026-07-11)
 
 
