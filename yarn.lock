@@ -1124,10 +1124,10 @@
     ansis "^3.17.0"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.86":
-  version "5.4.86"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.86.tgz#67c6e8c4a4c459431671bb20dfa4cb4ffe01511b"
-  integrity sha512-znwK8zjnhg/ECQwLW8hhmPd/FBTcg+XhesxZfhpBohfIK934YokoiHJ4qwGb5ccaxQ6xV7ihpfJBy9tcNlkK4Q==
+"@oclif/plugin-plugins@^5", "@oclif/plugin-plugins@^5.4.87":
+  version "5.4.87"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.87.tgz#b2cf192c0873ae51b6563c57e2d01280e8ce13f8"
+  integrity sha512-ym2/26p7J9O5POKjHOysJLSNcpWZK5mxzY3gwFYBaSgQRsjFRBdkZ8d7NcHOuES/E4ZnoP5Q3iNu+v4uhvNTDw==
   dependencies:
     "@oclif/core" "^4.13.0"
     ansis "^3.17.0"
