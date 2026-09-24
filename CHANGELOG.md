@@ -1,3 +1,12 @@
+## [0.5.175](https://github.com/oclif/plugin-test-esbuild/compare/0.5.174...0.5.175) (2026-09-24)
+
+
+### Bug Fixes
+
+* bumping deps (W-24099831) ([ab49c5e](https://github.com/oclif/plugin-test-esbuild/commit/ab49c5e4a1fe641e079c1d6213489b71c5027015))
+
+
+
 ## [0.5.174](https://github.com/oclif/plugin-test-esbuild/compare/0.5.173...0.5.174) (2026-08-15)
 
 
