@@ -11,14 +11,14 @@
     "bundle": "./bin/run.js"
   },
   "dependencies": {
-    "@oclif/core": "^4",
-    "@oclif/plugin-plugins": "^5.4.86",
-    "@oclif/plugin-test-esm-1": "^0.8.148"
+    "@oclif/core": "^5.0.1",
+    "@oclif/plugin-plugins": "^7.0.1",
+    "@oclif/plugin-test-esm-1": "^0.8.150"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.1",
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^4",
+    "@oclif/test": "^5.0.0",
     "@types/chai": "^4",
     "@types/mocha": "^10",
     "@types/node": "^18",
@@ -28,10 +28,10 @@
     "eslint-config-oclif": "^6.0.179",
     "eslint-config-prettier": "^10.1.8",
     "mocha": "^10",
-    "oclif": "^4.23.30",
+    "oclif": "^6.0.1",
     "shx": "^0.4.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^6"
   },
   "engines": {
     "node": ">=18.0.0"
