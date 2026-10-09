@@ -1,3 +1,12 @@
+## [0.5.177](https://github.com/oclif/plugin-test-esbuild/compare/0.5.176...0.5.177) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump postcss-selector-parser from 7.1.1 to 7.1.6 ([#614](https://github.com/oclif/plugin-test-esbuild/issues/614)) ([2793e06](https://github.com/oclif/plugin-test-esbuild/commit/2793e060143ccd5e02d42a16865c8506ee2f9551))
+
+
+
 ## [0.5.176](https://github.com/oclif/plugin-test-esbuild/compare/0.5.175...0.5.176) (2026-10-09)
 
 
