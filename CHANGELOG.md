@@ -1,3 +1,12 @@
+## [0.5.178](https://github.com/oclif/plugin-test-esbuild/compare/0.5.177...0.5.178) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#613](https://github.com/oclif/plugin-test-esbuild/issues/613)) ([4a44d89](https://github.com/oclif/plugin-test-esbuild/commit/4a44d896011e8b734094bf455193260ea2e04320))
+
+
+
 ## [0.5.177](https://github.com/oclif/plugin-test-esbuild/compare/0.5.176...0.5.177) (2026-10-09)
 
 
