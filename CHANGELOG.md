@@ -1,3 +1,12 @@
+## [0.5.180](https://github.com/oclif/plugin-test-esbuild/compare/0.5.179...0.5.180) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.24.4 to 4.29.1 ([#609](https://github.com/oclif/plugin-test-esbuild/issues/609)) ([bc3bce5](https://github.com/oclif/plugin-test-esbuild/commit/bc3bce5c707995f9856e8ca5311341915f65c4af))
+
+
+
 ## [0.5.179](https://github.com/oclif/plugin-test-esbuild/compare/0.5.178...0.5.179) (2026-10-09)
 
 
