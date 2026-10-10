@@ -1,3 +1,12 @@
+## [0.5.182](https://github.com/oclif/plugin-test-esbuild/compare/0.5.181...0.5.182) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @humanfs/node from 0.16.6 to 0.16.8 ([#608](https://github.com/oclif/plugin-test-esbuild/issues/608)) ([18b518f](https://github.com/oclif/plugin-test-esbuild/commit/18b518f0c997339c0cb3b2ef21c260793bdef661))
+
+
+
 ## [0.5.181](https://github.com/oclif/plugin-test-esbuild/compare/0.5.180...0.5.181) (2026-10-10)
 
 
