@@ -1,3 +1,12 @@
+## [0.5.183](https://github.com/oclif/plugin-test-esbuild/compare/0.5.182...0.5.183) (2026-10-11)
+
+
+### Bug Fixes
+
+* **deps:** bump pacote from 21.5.0 to 21.5.1 ([#603](https://github.com/oclif/plugin-test-esbuild/issues/603)) ([1a54658](https://github.com/oclif/plugin-test-esbuild/commit/1a5465865ce78da670cbbf578c08fa184617473c))
+
+
+
 ## [0.5.182](https://github.com/oclif/plugin-test-esbuild/compare/0.5.181...0.5.182) (2026-10-10)
 
 
