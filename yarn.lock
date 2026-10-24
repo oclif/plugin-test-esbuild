@@ -1265,7 +1265,7 @@
     node-gyp "^12.1.0"
     proc-log "^6.0.0"
 
-"@oclif/core@^5.0.0", "@oclif/core@^5.1.2", "@oclif/core@^5.1.8":
+"@oclif/core@^5.0.0", "@oclif/core@^5.1.8":
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-5.1.8.tgz#109564a941264534a5378f99a77e88e2a485c627"
   integrity sha512-K1b3zdmbwANV9Jk+QN8aFvnXY/IhfWRnmhWn/V57h7alzbtck2je2DVVf0EkA01FokreF7Tpe+7hiGS87q30SA==
@@ -1289,12 +1289,12 @@
     wrap-ansi "^7.0.0"
     wsl-utils "^0.4.0"
 
-"@oclif/plugin-help@^7.0.2":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-7.0.4.tgz#84ffc8e9995ed2265e10b92cbf7e30841a78ebd9"
-  integrity sha512-i3AKiJrHF8y/Hj/1QfNBVaE4N9sOlodA/CFq8Lv998BZAHe/uBwgqL94FvaZenj/3REyl01stptAUp/AQjpfOw==
+"@oclif/plugin-help@^7.0.2", "@oclif/plugin-help@^7.0.4":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-7.0.5.tgz#baade77964e6ae10c2681c7ddaf1ac0fcb34a661"
+  integrity sha512-yhDWRNRRgCPXmmlNQoqlVMF75M/6MkLWiSYsxSyCCG3o1cn8NW5pmAzU71LwN/7SVUyqm1ou0y51pQ2CScVvkQ==
   dependencies:
-    "@oclif/core" "^5.1.2"
+    "@oclif/core" "^5.1.8"
 
 "@oclif/plugin-not-found@^4.0.0":
   version "4.0.0"
@@ -1306,7 +1306,7 @@
     ansis "^3.17.0"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^7.0.3", "@oclif/plugin-plugins@^7.0.7":
+"@oclif/plugin-plugins@^7.0.7", "@oclif/plugin-plugins@^7.0.8":
   version "7.0.10"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-7.0.10.tgz#9b37620346f6dcca7010d18ed06d3a324ee93906"
   integrity sha512-BamuFshuCUja8Qcv39QryOwGMLEFazMjSUsdnp1XQOHz+/ngmopuDULWwQfE8xkHnmjrn+OytoTsFS0zgBJuHA==
@@ -1323,14 +1323,14 @@
     which "^4.0.0"
     yarn "^1.22.22"
 
-"@oclif/plugin-test-esm-1@^0.8.160":
-  version "0.8.160"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.8.160.tgz#8fc1ec889b51bf82387dc23fc1f1c3a8a1b12d6f"
-  integrity sha512-i5m7LTK8rM51N3r6MNVp5Gul+RiB9299J/BX2JCJJvT6v/MaFr0fanm2aV+eNisbjvapZpF/hRkashKYCTEeww==
+"@oclif/plugin-test-esm-1@^0.8.163":
+  version "0.8.163"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-test-esm-1/-/plugin-test-esm-1-0.8.163.tgz#9956433aa0eb5e4b7a53acc879f1eca0a7fda5ac"
+  integrity sha512-V6D9zDKx4952nr/zhLy9/Xen5aAbSn39pHhxaAy4sqY9iC/p3LhxGDgLFmcTIHnhyAKbksZOoiiu3p8piyjrvA==
   dependencies:
-    "@oclif/core" "^5.1.2"
-    "@oclif/plugin-help" "^7.0.2"
-    "@oclif/plugin-plugins" "^7.0.3"
+    "@oclif/core" "^5.1.8"
+    "@oclif/plugin-help" "^7.0.4"
+    "@oclif/plugin-plugins" "^7.0.8"
 
 "@oclif/plugin-warn-if-update-available@^4.0.0":
   version "4.0.0"
