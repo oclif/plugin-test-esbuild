@@ -1,3 +1,12 @@
+## [0.5.188](https://github.com/oclif/plugin-test-esbuild/compare/0.5.187...0.5.188) (2026-10-24)
+
+
+### Bug Fixes
+
+* **deps:** bump undici from 6.29.0 to 6.29.1 ([#626](https://github.com/oclif/plugin-test-esbuild/issues/626)) ([36aa65b](https://github.com/oclif/plugin-test-esbuild/commit/36aa65b6e92e3ed01657c7b7125912169a2e5d7e))
+
+
+
 ## [0.5.187](https://github.com/oclif/plugin-test-esbuild/compare/0.5.186...0.5.187) (2026-10-24)
 
 
